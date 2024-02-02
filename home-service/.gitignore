@@ -2,7 +2,7 @@
 
 # dependencies
 node_modules/
-important.env
+.env
 app.config.js
 
 # Expo
