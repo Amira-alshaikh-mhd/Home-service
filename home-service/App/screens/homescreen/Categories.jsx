@@ -48,7 +48,8 @@ const styles = StyleSheet.create({
         display:'flex',
         alignItems:'center',
         justifyContent:'space-between',
-        
+        marginRight:44,
+        marginBottom:8,
         
         
 
@@ -58,10 +59,10 @@ const styles = StyleSheet.create({
         backgroundColor:Colors.LIGHT_GRAY,
         padding:11,
         borderRadius:99,
-        display:'flex',
-        justifyContent:'space-between',
-        alignItems:'center',
-        margin:11,
+        // display:'flex',
+        // justifyContent:'space-between',
+        // alignItems:'center',
+        marginBottom:9,
         
 
     }

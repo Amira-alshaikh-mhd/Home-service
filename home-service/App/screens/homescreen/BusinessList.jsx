@@ -24,19 +24,15 @@ export default function BusinessList() {
       <Heading text={"Latest Business"} isViewAll={true} />
       <FlatList 
       data={businessLists}
+      horizontal={true}
+      showsHorizontalScrollIndicator={false}
 
       renderItem={({item, index})=>(
-        <View>
+        <View style={{marginRight:10}}>
 
-          {/* <BusinessListItem business={item} />
-           */}
+          <BusinessListItem business={item} />
+          
 
-
-           <Text>{item.name}</Text>
-           <Image
-           source={{uri:item?.images[0]?.url}}
-           style={{width:200,height:200}}
-           />
         </View>
 
       )}

@@ -10,8 +10,8 @@ export default function HomeScreen() {
     <View>
       <Header/>
       <View style={{padding:20}}>
-      {/* <Slider/> */}
-      {/* <Categories /> */}
+      <Slider/>
+      <Categories />
       <BusinessList />
       </View>
     </View>
